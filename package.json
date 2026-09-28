@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/planmark",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plan lightweight mark statistics from stdin samples.",
+  "bin": {
+    "planmark": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/planmark.git"
+  },
+  "homepage": "https://theworker02.github.io/planmark/",
+  "keywords": [
+    "plan",
+    "mark",
+    "stat",
+    "cli",
+    "toolkit"
+  ]
+}
